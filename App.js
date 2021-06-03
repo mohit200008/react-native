@@ -28,8 +28,8 @@ export default function App() {
       ]
     })
   }else {
-    Alert.alert('oops','Todos must have atleast 3 characters',[
-      {text: 'Got it', onPress: ()=> console.log('alert closed') }
+    Alert.alert('oops','Todos must have atleast 3 Characters',[
+      {text: 'Got it,Thanks', onPress: ()=> console.log('alert closed') }
     ]);
   }
 }
